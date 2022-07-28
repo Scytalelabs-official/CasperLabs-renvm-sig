@@ -1,0 +1,41 @@
+[package]
+authors = ["Muhammad Hammad Mubeen <hammad.mubeen@scytalelabs.com>"]
+description = "A library to construct mock RenVM signatures for cross-chain lock-and-mint operations with libsecp256k1 dependency on 0.5.0 version"
+name = "casperlabs_renvm_sig"
+license = "GPL-3.0"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies.borsh]
+version = "0.8.1"
+
+[dependencies.derive_builder]
+version = "0.9.0"
+
+[dependencies.digest]
+version = "0.9.0"
+
+[dependencies.libsecp256k1]
+version = "0.5.0"
+
+[dependencies.rand]
+version = "0.7.3"
+
+[dependencies.rustc-hex]
+version = "2.1.0"
+
+[dependencies.serde]
+version = "1.0.100"
+
+[dependencies.sha3]
+version = "0.9.1"
+
+[dependencies.thiserror]
+version = "1.0"
+
+[dependencies.tiny-keccak]
+features = ["keccak", "sha3"]
+version = "2.0.0"
+

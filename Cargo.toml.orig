@@ -1,0 +1,19 @@
+[package]
+authors = ["Muhammad Hammad Mubeen <hammad.mubeen@scytalelabs.com>"]
+description = "A library to construct mock RenVM signatures for cross-chain lock-and-mint operations with libsecp256k1 dependency on 0.5.0 version"
+name = "casperlabs_renvm_sig"
+license = "GPL-3.0"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+borsh = "0.8.1"
+derive_builder = "0.9.0"
+digest = "0.9.0"
+libsecp256k1 = "0.5.0"
+rand = "0.7.3"
+rustc-hex = "2.1.0"
+serde = "1.0.100"
+sha3 = "0.9.1"
+thiserror = "1.0"
+tiny-keccak = { version = "2.0.0", features = ["keccak", "sha3"] }
